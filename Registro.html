@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro Uleam</title>
+  <link rel="stylesheet" type="text/css" href="styles/estilos.css">
+  <script src="validation.js"></script>
+</head>
+<nav>
+  <a href="Paginaprincipal.html"><button><h3>Regresar</h3></button></a>
+</nav>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="/Img/logouleam.png" alt="ULEAM">
+    </div>
+    <div class="cuerpo">
+      <h2> 
+        Crea tu cuenta 
+        <hr>
+      </h2>
+      <form name="myForm" onsubmit="return validateForm()" action="Login.html" method="get">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="name" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="lastName" required>
+
+        <label for="cedula">Cédula:</label>
+        <input type="text" id="cedula" name="cedula" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="phone" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="email" required>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="password" required>
+
+        <label for="contrasena2">Confirmar contraseña:</label>
+        <input type="password" id="contrasena2" name="confirmPassword" required>
+
+        <label for="fecha-ingreso">Fecha de ingreso a la universidad:</label>
+        <input type="date" id="fecha-ingreso" name="admissionDate" required>
+
+        <label for="fecha-egreso">Fecha de egreso de la universidad:</label>
+        <input type="date" id="fecha-egreso" name="graduationDate" required>
+
+        <label for="genero">Género:</label>
+        <select id="genero" name="gender">
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+
+        <input type="submit" value="Registrarse">
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="logo2">
+      <img src="Img/logouleam.png">
+    </div>
+    <nav class="navv">
+      <a href="#"><pre><center>ULEAM @ Copyright 2023, Todos los derechos reservados - Universidad Laica Eloy Alfaro de Manabí</center></pre></a>
+      <a href="#"><pre><center>Dirección: Av. Circunvalación - Vía a San Mateo</center></pre></a>
+      <a href="#"><pre><center>Manta - Manabí - Ecuador</center></pre></a>
+    </nav>
+  </footer>
+</body>
+</html>
