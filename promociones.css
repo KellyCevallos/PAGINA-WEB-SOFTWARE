@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.graduados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.graduado {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.graduado:hover {
+  transform: translateY(-5px);
+}
+
+.graduado img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.graduado .info {
+  padding: 20px;
+}
+
+.graduado h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.graduado p {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #232325;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo2 img {
+  height: 60px;
+  width: 190px;
+}
+
+.navv a {
+  text-decoration: none;
+  color: #e7e4e4;
+  padding: 15px;
+  margin: auto;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a button {
+  color: #fff;
+  background-color: #ff8c00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+a button:hover {
+  background-color: #ff6f00;
+}

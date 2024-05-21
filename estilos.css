@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #aeb7b8;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    margin: 20px;
+    text-align: left;
+}
+
+nav a button {
+    color: white;
+    background-color: #0b7a5a;
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a button:hover {
+    background-color: #055c49;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(27, 27, 27, 0.5);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 70%;
+    height: auto;
+}
+
+.cuerpo {
+    text-align: center;
+}
+
+h2 {
+    color: #dcd9d9;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border-color: #dcd9d9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ded8d8;
+    align-self: flex-start;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select {
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #17523e;
+    color: #fdf7f7;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #a94442;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: #e7e4e4;
+    margin-top: 50px;
+}
+
+footer .logo2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .logo2 img {
+    height: 60px;
+    width: 190px;
+}
+
+footer .navv {
+    text-align: center;
+}
+
+footer .navv a {
+    text-decoration: none;
+    color: #e7e4e4;
+    font-family: Arial, Helvetica, sans-serif;
+}
